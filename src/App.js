@@ -5,6 +5,7 @@ import { ThemeProvider } from '@emotion/react';
 import { darkTheme } from './Themes/DarkTheme';
 import { CssBaseline } from '@mui/material';
 import Home from './component/Home/Home';
+import RestaurantDetails from './component/Restarant/RestaurantDetails';
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
      <CssBaseline/>
      
      <Navbar/>
-     <Home/>
+      {/* <Home/> */}
+      <RestaurantDetails/>
      
      </ThemeProvider>
   
